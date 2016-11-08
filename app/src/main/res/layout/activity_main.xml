@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp">
+
+    <TextView
+        style="@style/TextView"
+        android:text="@string/str_outline" />
+
+    <EditText
+        android:id="@+id/et_outline"
+        style="@style/EditText"
+        android:hint="@string/str_outline_input"/>
+
+    <TextView
+        style="@style/TextView"
+        android:text="@string/str_title" />
+
+    <EditText
+        android:id="@+id/et_title"
+        style="@style/EditText"
+        android:hint="@string/str_title_input"/>
+
+    <TextView
+        style="@style/TextView"
+        android:text="@string/str_content" />
+
+    <EditText
+        android:id="@+id/et_content"
+        style="@style/EditText"
+        android:hint="@string/str_content_input"/>
+
+
+    <Button
+        android:id="@+id/btn_send"
+        style="@style/Button"
+        android:text="@string/str_send"/>
+</LinearLayout>
